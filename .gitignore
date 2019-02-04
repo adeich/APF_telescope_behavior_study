@@ -1,2 +1,5 @@
 apf.db
 unique_id_error_log.txt
+*.swp
+*.ipyn*
+__pycache*
