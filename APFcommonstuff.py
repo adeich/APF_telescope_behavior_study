@@ -70,3 +70,6 @@ def shortname_and_units(raw_name):
     output_string = '{2}--{0} ({1})'.format(
       shortname(raw_name), units(raw_name), raw_name)
     return output_string
+
+stars = pandas.DataFrame([['HD10700_APF.vels', 'b'], ['HD185144_APF.vels', 'g'], 
+                            ['HD9407_APF.vels', 'r']], columns=['starID', 'color'])
